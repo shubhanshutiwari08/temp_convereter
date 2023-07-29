@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    /* background-color: #eae2b7; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+#fa{
+    font-size: 60px;
+}
+
+form{
+    background-color: #fab1a0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 10px;
+}
+.container{
+    background: rgba(230, 53, 53, 0.1);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+/* [type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+} */
+
+#resultContainer{
+    font-size: 35px;
+}
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input{
+    width: 220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+
+.input::placeholder{
+    color: darkgray;
+}
